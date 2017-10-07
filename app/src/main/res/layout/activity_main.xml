@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context="com.example.admin.animationandroid.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/alpha"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="alphaanimation"
+            android:text="Alpha" />
+
+        <Button
+            android:id="@+id/scale"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="scaleanimation"
+            android:text="Scale" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/translate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="transalteanimation"
+            android:text="Translate" />
+
+        <Button
+            android:id="@+id/rotate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="rotateanimaton"
+            android:text="Rotate" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/animationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="animation" />
+</LinearLayout>
